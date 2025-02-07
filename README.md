@@ -1,8 +1,4 @@
 # React-Components
-
-## you will need to install shadcn, tailwind and react icons
-To improve your React component setup with **shadcn**, **Tailwind CSS**, and **React Icons**, I'll provide a more structured and optimized approach. This will include better organization, best practices, and additional enhancements.
-
 ---
 
 ### 1. **Install Dependencies**
