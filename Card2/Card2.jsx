@@ -1,3 +1,5 @@
+import { Badge } from "@/components/ui/badge"
+
 function Card({ imageUrl, title, description, tags }) {
     return (
         <div className="max-w-md bg-[#18181B] text-[#FAFAFA] p-4 rounded-lg shadow-lg">
@@ -11,7 +13,7 @@ function Card({ imageUrl, title, description, tags }) {
                 <p className="text-sm text-gray-400">{description || "Description of the project"}</p>
                 <div className="mt-2">
                     {tags ? (
-                        <span className="bg-gray-700 text-xs px-2 py-1 rounded">{tags}</span>
+                        <span ><Badge className="bg-white text-[black] hover:text-[white]">{tags}</Badge></span>
                     ) : (
                         <span className="text-gray-500 text-xs">No tags available</span>
                     )}
