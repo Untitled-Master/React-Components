@@ -1,4 +1,4 @@
-# React-Components
+# React-Components (Not a library or a framework)
 ---
 
 ### 1. **Install Dependencies**
